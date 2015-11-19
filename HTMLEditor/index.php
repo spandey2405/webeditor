@@ -8,12 +8,7 @@
   <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <div class="header">
-        HTML Editor 
-        <input type="button" id="show" value="Run Code"> 
-        <input type="button" value="Colors" onclick="location.href='colors.php';"> 
-        Shortcut (Control + Enter ) 
-    </div>
+    <?php include "../src/lib/header_editor.php"; ?>
     <div class="code">
         
         HTML CODE HERE :
