@@ -8,10 +8,10 @@
   <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <?php include "../src/lib/header_editor.php"; ?>
+        <?php include "../src/lib/header_editor.php";  display("Python"); ?>
     <div class="code" style="overflow-y: hidden;overflow-x: hidden;">
         
-        PHP Code Here :
+        Python Code Here :
         <textarea id="Python"></textarea>
         
     </div>

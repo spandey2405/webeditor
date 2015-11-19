@@ -8,7 +8,7 @@
   <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <?php include "../src/lib/header_editor.php"; ?>
+    <?php include "../src/lib/header_editor.php";  display("HTML"); ?>
     <div class="code">
         
         HTML CODE HERE :
