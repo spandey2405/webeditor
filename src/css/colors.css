@@ -1,0 +1,42 @@
+body {
+    font-family:arial;
+}
+h1 {
+    color: #489cdf;
+    font-size: 28px;
+    margin: 40px 0px 20px 0px;
+    font-family: arial;
+}
+p {
+    font-size:14px;
+    font-style: normal;
+}
+table td {
+    width:20px;
+    height:20px;
+}
+.colors {
+    width:150px;
+    height:60px;
+    float:left;
+    margin:20;
+}
+.codes {
+    width:150px;
+    font-size: 30px;
+    /*padding : 20px;*/
+    float:left;
+    margin:20;
+    padding:10px;
+    /*border: 1px solid #D8D8D8;*/
+}
+.info {
+    width:150px;
+    font-size: 16px;
+    /*padding : 20px;*/
+    float:left;
+    margin:20;
+    padding:10px;
+    color: #489cdf;
+    /*border: 1px solid #D8D8D8;*/
+}
