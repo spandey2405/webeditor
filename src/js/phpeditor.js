@@ -1,6 +1,6 @@
 $("#show").click(function() {
     var PHP = document.getElementById("PHP").value;
-    $.post( "src/lib/createphpfile.php", { code: PHP}).done(function( data ) {
+    $.post( "../src/lib/createphpfile.php", { code: PHP}).done(function( data ) {
     $("#display").attr("src", data);
   });
 });

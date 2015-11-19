@@ -1,6 +1,6 @@
 $("#show").click(function() {
     var Python = document.getElementById("Python").value;
-    $.post( "src/lib/createpythonfile.php", { code: Python }).done(function( data ) {
+    $.post( "../src/lib/createpythonfile.php", { code: Python }).done(function( data ) {
     $("#display").attr("src", data);
   });
 });
