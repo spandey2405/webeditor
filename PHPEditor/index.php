@@ -1,23 +1,34 @@
-<!doctype html>
-<html lang="en">
+<?php
+$FileName = uniqid().".php";
+include '../src/Template/header.php';
+?>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Online Web Creator</title>
-  <link href="../src/css/style.css" rel="stylesheet" type="text/css"/>
-  <script src="../src/js/jquery-1.10.2.js" type="text/javascript"></script>
-  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <title>
+        PHP Editor
+    </title>
+    <link href="../src/Template/css/header.css" rel="stylesheet" type="text/css">
+    <link href="../src/css/editor.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="../src/js/jquery-1.10.2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-    <?php include "../src/lib/header_editor.php";  display("PHP"); ?>
-    <div class="code" style="overflow-y: hidden;overflow-x: hidden;">
-        
-        PHP Code Here :
-        <textarea id="PHP"></textarea>
-        
-    </div>
-    
-    <iframe cols="50%" id="display"></iframe>
+<Usertoken id="<?php echo $token; ?>"></Usertoken>
+<?php DisplayHeader() ?>
 
-    <script src="../src/js/phpeditor.js" type="text/javascript"></script>
+<div class="DisplayBody">
+
+    <div class="fileinfo" id ="<?php echo $FileName; ?>">File Name : <?php echo $FileName; ?></div>
+
+    <div class="codeEditor">
+        <textarea class="Content display" id="PHPContent" placeholder="Php code code ...."></textarea>
+    </div>
+    <iframe cols="40%" class="displayresult" id="displayresult" src=""></iframe>
+
+</div>
+<script src="editorDesign.js"></script>
+<script src="runPHP.js"></script>
 </body>
 </html>
