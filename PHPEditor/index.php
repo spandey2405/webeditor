@@ -7,6 +7,8 @@ include '../src/Template/header.php';
     <title>
         PHP Editor
     </title>
+    <meta name="description" content="OnlineCode.in is an online IDE where you can test your Php codes online with OnlineEditors ">
+    <meta name="keywords" content="php editor, online javascript editor, testing javascript online, online ide, online code editor, html, css, scss online editor">
     <link href="../src/Template/css/header.css" rel="stylesheet" type="text/css">
     <link href="../src/css/editor.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">

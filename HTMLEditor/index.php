@@ -12,6 +12,8 @@ include '../docs/javascripttags.php';
     <title>
         HTML Editor
     </title>
+    <meta name="description" content="OnlineCode.in is an online IDE where you can test your Javascript , HTML and CSS codes online with OnlineEditors ">
+    <meta name="keywords" content="online javascript editor, testing javascript online, online ide, online code editor, html, css, scss online editor">
     <link href="../src/Template/css/header.css" rel="stylesheet" type="text/css">
     <link href="../src/css/editor.css" rel="stylesheet" type="text/css">
     <script src="../src/js/jquery-1.10.2.js"></script>
