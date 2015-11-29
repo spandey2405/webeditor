@@ -11,6 +11,7 @@ include 'header.php';
     <link href="src/Template/css/header.css" rel="stylesheet" type="text/css">
     <link href="src/css/sidemenu.css" rel="stylesheet" type="text/css">
     <script src="src/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <meta name="google-site-verification" content="cZ58pADWYRT48YcegGpyXmLjkOli-FwxnU4teBejRX4" />
 </head>
 <body>
 <?php DisplayHeader('Main Page') ?>
