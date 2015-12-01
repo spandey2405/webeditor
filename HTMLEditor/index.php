@@ -155,5 +155,6 @@ include '../docs/javascripttags.php';
 <script src="editorDesign.js"></script>
 <script src="runHtml.js"></script>
 <script src="tagsscript.js"></script>
+<script src="csseditormodifier.js"></script>
 </body>
 </html>
